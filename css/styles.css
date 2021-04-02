@@ -475,7 +475,11 @@ mark,
 }
 
 .img-fluid {
-  max-width: 100%;
+  max-width: auto;
+  height: auto;
+}
+.img-fluid2 {
+  max-width: -webkit-fill-available;
   height: auto;
 }
 
@@ -574,7 +578,7 @@ pre code {
   }
 }
 .row {
-  display: flex;
+  display: blocks;
   flex-wrap: wrap;
   margin-right: -1.5rem;
   margin-left: -1.5rem;
@@ -7426,6 +7430,10 @@ button.bg-dark:focus {
 .w-100 {
   width: 100% !important;
 }
+.w-400 {
+  width: 400% !important;
+}
+
 
 .w-auto {
   width: auto !important;
@@ -9941,7 +9949,7 @@ h3 {
   }
 
   .container {
-    min-width: 992px !important;
+    min-width: auto !important;
   }
 
   .navbar {
@@ -10145,7 +10153,7 @@ h3 {
   cursor: pointer;
   position: relative;
   display: block;
-  max-width: 25rem;
+  max-width: 900px;
   border-radius: 0.5rem;
   overflow: hidden;
 }

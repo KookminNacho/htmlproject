@@ -64,6 +64,12 @@
         $(this).removeClass("floating-label-form-group-with-focus");
       });
     });
-  
   })(jQuery); // End of use strict
+
+
+// Data Area
+popular = "";
+if(popular != ""){
+  document.getElementById("portfolioModal1Label").innerHTML = "";
+}
   
